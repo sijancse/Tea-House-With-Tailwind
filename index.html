@@ -16,9 +16,37 @@
         @theme {
           --color-clifford: #da373d;
         }
-      </style>
+    </style>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
-    
+    <main class="max-w-screen-xl mx-auto px-16 md:px-28">
+        <header class="flex pt-10 mb-20">
+            <!-- content -->
+             <div>
+                <h1 class="text-5xl md:text-7xl font-bold font-manrope">It's good <br> tea time at The <br> Tea house</h1>
+                <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-xl text-white font-bold my-5">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+             </div>
+             <!-- Image -->
+              <div class="relative">
+                    <div><img src="images/banner.png" alt=""></div>
+                    <div class="rounded-xl px-3 py-3 flex items-center gap-5 bg-white drop-shadow-xl absolute top-82 left-17">
+                        <div><i class="fa-solid fa-star text-4xl text-amber-500"></i></div>
+                        <div class="float">
+                            <h2 class="text-4xl font-bold">5.00</h2>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+              </div>
+        </header>
+    </main>
 </body>
 </html>
